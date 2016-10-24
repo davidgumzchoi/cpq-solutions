@@ -2,11 +2,23 @@
 
 // AJAX Load Components
 $('#navContainer').load('templates/nav.html');
-$('#homeContainer').load('partials/home.html');
+$('#mainContainer').load('partials/home.html');
 $('#footerContainer').load('templates/footer.html');
 $('#modalContainer').load('templates/modal.html');
 
 $(function() {
+  // $('#nav a.page-scroll').on('click', function(event) {
+  //   event.preventDefault();
+
+  //   var partialName = event.currentTarget.attributes[1].nodeValue;
+  //   $('#mainContainer').empty();
+  //   $('#mainContainer').load('partials' + partialLink);
+    
+  //   if (history.pushState) {
+  //     var newurl = location.protocol + "//" + location.host + location.pathname + partialName;
+  //     window.history.pushState({path:newurl},'',newurl);
+  //   }
+  // });
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function(event) {
@@ -54,5 +66,4 @@ $(function() {
     $homeContainer.css({'height': windowHeight + 'px'});
     $('header .header-content').css({'height': windowHeight + 'px'});
   }
-
 });

@@ -6,7 +6,7 @@ Moves our website out of heavy Wordpress solution to render more quickly leverag
 The homepage will be a brief view into each subpage (company, solutions, services, clients)
 
 Highlights on each CTA especially and quick access to "Contact" and send message using a focused pop-up modal
-s
+
 Clear branding and consistent messaging
 
 ## How to use this repo

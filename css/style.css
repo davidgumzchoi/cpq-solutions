@@ -405,6 +405,22 @@ header .header-content p {
     padding-left: 0;
 }
 
+#clients {
+    padding-bottom: 0;
+}
+
+#clients .primary {
+    margin-bottom: 75px;
+}
+
+.video-testimonial {
+    margin-bottom: 100px;
+}
+
+.video-testimonial h2 {
+    font-style: italic;
+}
+
 .btn-default {
     background: #fff;
     border: 1px solid #fff;
